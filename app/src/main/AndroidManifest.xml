@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bplt20cricket2019.asus.bplt20application">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1818607113375588~7904900862"/>
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity
+                android:name=".AboutActivity"
+                android:parentActivityName=".DirectoryActivity">
+        </activity>
+        <activity
+                android:name=".TeamActivity"
+                android:parentActivityName=".DirectoryActivity">
+        </activity>
+        <activity
+                android:name=".FixtureActivity"
+                android:parentActivityName=".DirectoryActivity">
+        </activity>
+        <activity
+                android:name=".PredictionActivity"
+                android:parentActivityName=".DirectoryActivity">
+        </activity>
+        <activity
+                android:name=".PlayerListActivity"
+                android:parentActivityName=".DirectoryActivity">
+        </activity>
+        <activity
+                android:name=".DhakaActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".SylhetActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".ComillaActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".ChittagongActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".RajshahiActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".RangpurActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity
+                android:name=".DirectoryActivity"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".TitansActivity"
+                android:parentActivityName=".PlayerListActivity">
+        </activity>
+        <activity android:name=".LivescoreActivity"
+                  android:parentActivityName=".DirectoryActivity"
+        >
+        </activity>
+    </application>
+
+</manifest>

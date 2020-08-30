@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+    >
+        <Button
+                android:id="@+id/teambuttonid"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অংশগ্রহণকারী দল"
+                android:background="@drawable/btd1"
+                android:drawableRight="@drawable/nextsign"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="7dp"
+        />
+
+        <Button
+                android:id="@+id/schedulebuttonid"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সময়সূচি"
+                android:background="@drawable/btd3"
+                android:drawableRight="@drawable/nextsign"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="7dp"
+        />
+        <Button
+                android:id="@+id/livebuttonid"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="লাইভ স্কোর ও টিভি"
+                android:background="@drawable/btd5"
+                android:drawableRight="@drawable/nextsign"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="7dp"
+        />
+        <Button
+                android:id="@+id/todaybuttonid"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কে জিতবে আজ ?"
+                android:background="@drawable/btd4"
+                android:drawableRight="@drawable/nextsign"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="7dp"
+        />
+        <Button
+                android:id="@+id/listbuttonid"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="খেলোয়াড়দের তালিকা"
+                android:background="@drawable/btd2"
+                android:drawableRight="@drawable/nextsign"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:padding="7dp"
+        />
+    </LinearLayout>
+</LinearLayout>
