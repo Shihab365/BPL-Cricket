@@ -7,9 +7,9 @@ Feature:
 *Player list  
 *Prediction  
 *Live tv  
-*Live score  
-N.B. - Unofficial app.  
-*Language: Bangla  
+*Live score     
+*Language: Bangla    
+N.B. - Unofficial app. 
 
 
 ## Demo
